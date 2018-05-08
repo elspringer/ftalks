@@ -1,0 +1,52 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+body {
+    background-image: url("ftalks.png");
+    /*background-repeat: repeat-x;*/
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-start;
+    ul {
+    list-style: none;
+  }
+}
+
+.nav-column {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  min-width: 200px;
+  .top-link {
+    margin-top: 20px;
+  }
+  .more-information {
+    margin-top: 150%;
+  }
+
+ /* .here-link {
+    padding-bottom: 5px;*/
+
+  }
+
+.home {
+  flex-direction: column;
+  margin-left: 10px;
+  width: 70%;
+}
