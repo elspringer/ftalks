@@ -28,6 +28,11 @@ body {
   }
 }
 
+a.selected {
+    color: #256EFF;
+    font-weight: bold;
+  }
+
 .nav-column {
   display: flex;
   flex-direction: column;
