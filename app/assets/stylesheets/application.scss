@@ -27,12 +27,26 @@ body {
     list-style: none;
   }
 }
+p {
+  color: #E5007D;
+}
 
+a {
+  color: #E5007D;
+}
 a.selected {
-    color: #256EFF;
+    color: #000080;
     font-weight: bold;
   }
+a:link {
+  text-decoration: none;
+  color: #E5007D;
 
+}
+a:hover {
+  color: #000080;
+  font-weight: bold;
+}
 .nav-column {
   display: flex;
   flex-direction: column;
