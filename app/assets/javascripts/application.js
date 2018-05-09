@@ -24,6 +24,7 @@ $(document).ready(function(){
   $(".helene").hide();
   $(".liza").hide();
   $(".helga").hide();
+  $(".home-content").show();
   $(".home-link").addClass("selected");
 $(".kerstin-link").click(function(){
   $(".kerstin").show();
@@ -31,6 +32,7 @@ $(".kerstin-link").click(function(){
   $(".helene").hide();
   $(".liza").hide();
   $(".helga").hide();
+  $(".home-content").hide();
   $(".kerstin-link").addClass("selected");
   $(".rosana-link").removeClass("selected");
   $(".helene-link").removeClass("selected");
@@ -43,6 +45,7 @@ $(".rosana-link").click(function(){
   $(".helene").hide();
   $(".liza").hide();
   $(".helga").hide();
+  $(".home-content").hide();
   $(".kerstin-link").removeClass("selected");
   $(".rosana-link").addClass("selected");
   $(".helene-link").removeClass("selected");
@@ -55,6 +58,7 @@ $(".helene-link").click(function(){
   $(".helene").show();
   $(".liza").hide();
   $(".helga").hide();
+  $(".home-content").hide();
   $(".kerstin-link").removeClass("selected");
   $(".rosana-link").removeClass("selected");
   $(".helene-link").addClass("selected");
@@ -67,6 +71,7 @@ $(".liza-link").click(function(){
   $(".helene").hide();
   $(".liza").show();
   $(".helga").hide();
+  $(".home-content").hide();
   $(".kerstin-link").removeClass("selected");
   $(".rosana-link").removeClass("selected");
   $(".helene-link").removeClass("selected");
@@ -79,6 +84,7 @@ $(".helga-link").click(function(){
   $(".helene").hide();
   $(".liza").hide();
   $(".helga").show();
+  $(".home-content").hide();
   $(".kerstin-link").removeClass("selected");
   $(".rosana-link").removeClass("selected");
   $(".helene-link").removeClass("selected");
@@ -91,6 +97,7 @@ $(".home-link").click(function(){
   $(".helene").hide();
   $(".liza").hide();
   $(".helga").hide();
+  $(".home-content").show();
   $(".kerstin-link").removeClass("selected");
   $(".rosana-link").removeClass("selected");
   $(".helene-link").removeClass("selected");
