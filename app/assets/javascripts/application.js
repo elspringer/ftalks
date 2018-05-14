@@ -24,8 +24,8 @@ $(document).ready(function(){
   $(".helene").hide();
   $(".liza").hide();
   $(".helga").hide();
-  $(".home-content").show();
-  $(".home-link").addClass("selected");
+  $(".home-content").hide();
+  // $(".home-link").addClass("selected");
 $(".kerstin-link").click(function(){
   $(".kerstin").show();
   $(".rosana").hide();
@@ -104,4 +104,5 @@ $(".home-link").click(function(){
   $(".liza-link").removeClass("selected");
   $(".helga-link").removeClass("selected");
 });
+
 });
