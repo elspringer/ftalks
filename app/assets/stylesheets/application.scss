@@ -32,10 +32,14 @@ body {
     font-family: 'myFirstFont';
     ul {
     list-style: none;
+
   }
 }
+.thereli {
+      color: #E6007D;
+    }
 p {
-  color: #E5007D;
+  color: #E6007D;
 }
 .content p {
   color: #000080;
@@ -43,7 +47,7 @@ p {
 }
 
 a {
-  color: #E5007D;
+  color: #E6007D;
 }
 a.selected {
     color: #000080;
@@ -51,7 +55,7 @@ a.selected {
   }
 a:link {
   text-decoration: none;
-  color: #E5007D;
+  color: #E6007D;
 
 }
 a:hover {
