@@ -11,7 +11,6 @@ gem "autoprefixer-rails"
 gem "jquery-rails"
 gem 'figaro'
 gem 'cloudinary'
-gem 'rails_12factor', group: :production
 
 
 source 'https://rails-assets.org' do
