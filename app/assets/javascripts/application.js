@@ -104,5 +104,12 @@ $(".home-link").click(function(){
   $(".liza-link").removeClass("selected");
   $(".helga-link").removeClass("selected");
 });
-
+$(".close-link").click(function(){
+  $(".kerstin").hide();
+  $(".rosana").hide();
+  $(".helene").hide();
+  $(".liza").hide();
+  $(".helga").hide();
+  $(".home-content").hide();
+  });
 });
