@@ -22,11 +22,12 @@
  @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 
 body {
-    background-image: url("http://res.cloudinary.com/dtmfljpan/image/upload/v1525793843/ftalklogo_gaiut8.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 50% 85%;
+    // background-image: url("http://res.cloudinary.com/dtmfljpan/image/upload/v1525793843/ftalklogo_gaiut8.png");
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // z-index: 1;
+    // background-attachment: fixed;
+    // background-size: 50% 85%;
     display: flex;
     justify-content: flex-start;
     font-family: 'myFirstFont';
@@ -35,6 +36,8 @@ body {
 
   }
 }
+
+
 .thereli {
       color: #E6007D;
     }
@@ -46,6 +49,9 @@ p {
   width: 25%;
 }
 
+.home {
+  z-index: 0;
+}
 a {
   color: #E6007D;
 }
