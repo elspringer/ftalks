@@ -1,0 +1,120 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@font-face {
+  font-family: 'myFirstFont';
+  src: url("./suisseintl-book-webfont.woff") format("woff");
+}
+/* line 25, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-family: 'myFirstFont';
+  margin-top: 0px;
+}
+/* line 30, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+body ul {
+  list-style: none;
+}
+
+/* line 36, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+.navbar {
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+/* line 40, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+.nav-header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 44, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+.home p {
+  margin-top: 0px;
+}
+
+/* line 48, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+.thereli {
+  color: #E6007D;
+}
+
+/* line 51, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+p {
+  color: #E6007D;
+}
+
+/* line 54, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+.content p {
+  color: #E6007D;
+  width: 25%;
+}
+
+/* line 63, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+a {
+  color: #E6007D;
+}
+
+/* line 66, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+a.selected {
+  color: #E6007D;
+}
+
+/* line 69, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+a:link {
+  text-decoration: none;
+  color: #E6007D;
+}
+
+/* line 74, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+a:hover {
+  color: #E6007D;
+}
+
+/* line 77, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+.nav-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  min-width: 200px;
+}
+/* line 82, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+.nav-column .top-link {
+  margin-top: 20px;
+}
+/* line 85, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+.nav-column .more-information {
+  margin-top: 150%;
+}
+
+/* line 91, /Users/erinnspringer/Projects/ftalks/app/assets/stylesheets/application.scss */
+.home {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10px;
+  width: 70%;
+}
