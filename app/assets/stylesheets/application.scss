@@ -25,12 +25,19 @@ body {
     display: flex;
     justify-content: flex-start;
     font-family: 'myFirstFont';
+    margin-top: 0px;
     ul {
     list-style: none;
 
   }
 }
 
+.navbar {
+  margin-top: 0px;
+}
+.home p {
+    margin-top: 0px;
+}
 
 .thereli {
       color: #E6007D;
@@ -39,8 +46,9 @@ p {
   color: #E6007D;
 }
 .content p {
-  color: #000080;
+  color: #E6007D;
   width: 25%;
+
 }
 
 // .home {
@@ -50,8 +58,7 @@ a {
   color: #E6007D;
 }
 a.selected {
-    color: #000080;
-    font-weight: bold;
+    color: #E6007D;
   }
 a:link {
   text-decoration: none;
@@ -59,8 +66,7 @@ a:link {
 
 }
 a:hover {
-  color: #000080;
-  font-weight: bold;
+  color: #E6007D;
 }
 .nav-column {
   display: flex;
